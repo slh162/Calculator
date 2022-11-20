@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calcu.css'>
+   
+</head>
+<body>
+    <div id="calcu">
+        <input  id="inp" type="text" value="0" disabled="disabled">
+        <br>
+        <button onclick="display('1')" class="bu">1</button>
+        <button onclick="display('2')" class="bu">2</button>
+        <button onclick="display('3')" class="bu">3</button>
+        <button onclick="display('+')" class="bu">+</button>
+        <br>
+        <button onclick="display('4')" class="bu">4</button>
+        <button onclick="display('5')" class="bu">5</button>
+        <button onclick="display('6')" class="bu">6</button>
+        <button onclick="display('-')" class="bu">-</button>
+        <br>
+        <button onclick="display('7')" class="bu">7</button>
+        <button onclick="display('8')" class="bu">8</button>
+        <button onclick="display('9')" class="bu">9</button>
+        <button onclick="display('*')" class="bu">*</button>
+        <br>
+        <button onclick="clearScreen()" class="bu">C</button>
+        <button onclick="display('0')" class="bu">0</button>
+        <button onclick="result()" class="bu">=</button>
+        <button onclick="display('/')" class="bu">\</button>
+        </div>
+
+
+     <script src='calc.js'></script>
+</body>
+</html>
